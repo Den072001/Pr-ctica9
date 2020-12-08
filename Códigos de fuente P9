@@ -1,0 +1,88 @@
+PRoblema 1:
+//abrir librerias//
+//Determinar cuánto ahorrará una persona en un año, si al final de cada mes deposita variables cantidades de dinero; además, se requiere saber cuánto lleva ahorrado cada mes.//
+#include <stdio.h>
+
+//Bloque de variables 
+int main(){
+	
+	//variables reales//
+	
+	float ahorroMes, mes, ahorroFinal;
+	int cantidad;
+
+	//Bloque de instrucciones//
+	mes <=12;
+
+		printf("Ingrese la cantidad que ahorro este mes:\n");
+		scanf("%d, &cantidad");
+		ahorroMes = cantidad;
+		scanf("%d, &ahorroMes");
+		ahorroFinal=ahorroMes+ahorroMes+ahorroMes;
+		printf("El ahorro del mes es %d:\n", mes);
+		printf("El ahorro final es %d:\n", ahorroMes);
+	return 0;	
+}
+
+
+
+Problema 2:
+//abir librerías//
+//Determinar, de N cantidades, cuántas son menores o iguales a cero y cuántas mayores a cero.//
+#include<stdio.h>
+int main(void){
+	
+	//bloque de variables//
+	int i, num, cero, mayoresCero, menoresCero,n;
+	float cantidad;
+	
+	//Bloque de instrucciones //
+	
+	cero = 0;
+	menoresCero =0;
+	mayoresCero = 0;
+	
+	printf ("Ingrese el valor de n: ");
+    scanf ("%d", &n);
+    (void) getchar ();
+    	
+	for (i =1; i <= num; i++){
+		
+		printf("Ingrese el valor de la cantidad\n:");
+		scanf("%d", &num);
+		(void) getchar ();
+		if(cantidad == 0)
+			cero == 0;
+		if(cantidad <0) 
+			menoresCero ++;
+		if(cantidad > 0);
+			mayoresCero ++;
+		
+	}
+	
+	printf("Valor de cero: %d\n", cero);
+	printf ("Valor de menores a cero: %d\n", menoresCero);
+	printf("Valor de mayor a cero: %d\n", mayoresCero);
+	
+	return 0; 
+	
+}
+
+
+
+Problema 3: 
+//abrir librerías//
+//Generar e imprimir los números pares que se encuentran entre 0 y 100.//
+#include <stdio.h>
+void main(){
+  //Definicion de variables
+ int _cont;
+ //Bloque de instrucciones//
+ while(_cont<=100){//limita el conteo hasta 100
+    if(_cont%2==0){//verificar si es par
+      printf("%d, ",_cont);
+     }//END verificar si es par
+   _cont++;//Se incrementa la variable
+  }//END limita el conteo hasta 100
+ getch();
+}
